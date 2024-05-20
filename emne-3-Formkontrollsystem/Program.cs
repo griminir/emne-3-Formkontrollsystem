@@ -23,6 +23,8 @@ void DisplayList(List<Shape> listtosort)
     {
         Console.WriteLine($"Name: {shape.Name} Color: {shape.Color} Areal: {shape.Areal}m^2");
     }
+
+    Console.WriteLine();
 }
 
 void TotalAreal(List<Shape> list)
@@ -34,6 +36,7 @@ void TotalAreal(List<Shape> list)
     }
 
     Console.WriteLine($"total areal = {sum}m^2");
+    Console.WriteLine();
 }
 
 void SortedListByAreal(List<Shape> list)
@@ -50,9 +53,6 @@ void FilterListColor(List<Shape> theList, string color)
 
 DisplayList(allShapes);
 TotalAreal(allShapes);
-Console.WriteLine();
 SortedListByAreal(allShapes);
-Console.WriteLine();
 FilterListColor(allShapes, "green");
-Console.WriteLine();
 FilterListColor(allShapes, "yellow");
