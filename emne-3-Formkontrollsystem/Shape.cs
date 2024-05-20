@@ -10,8 +10,7 @@ namespace emne_3_Formkontrollsystem
     {
         public string Name { get; protected set; }
         public string Color { get; protected set; }
-
-        public abstract decimal Areal { get; protected set; }
+        public decimal Areal { get; protected set; }
 
         public Shape(string name, string color)
         {

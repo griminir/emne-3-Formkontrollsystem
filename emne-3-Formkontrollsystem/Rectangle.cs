@@ -8,7 +8,6 @@ namespace emne_3_Formkontrollsystem
 {
     internal class Rectangle : Shape
     {
-        public override decimal Areal { get; protected set; }
         public decimal Width { get; private set; }
         public decimal Length { get; private set; }
 
